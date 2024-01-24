@@ -1,0 +1,56 @@
+.onboarding {
+  display: flex;
+  justify-content: space-between;
+  padding: 96px 0px 96px 160px;
+}
+.onboard-container {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.onboard {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.onboard h3 {
+  color: #101828;
+  font-family: "Inter";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 60px; /* 125% */
+  letter-spacing: -0.96px;
+  max-width: 579px;
+}
+.onboard ul {
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.onboard ul li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  color: #475467;
+  font-family: "Inter";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+}
+.onboard-btn {
+  display: flex;
+  gap: 5px;
+}
+.onboard-btn button {
+  padding: 14px 24px;
+  border-radius: 100px;
+  border: none;
+}
+
+.img-container img{
+  border-radius: 12px;
+  border-top: 8px solid  #101828;
+  border-left: 8px solid  #101828;
+}

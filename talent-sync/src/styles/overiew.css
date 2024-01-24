@@ -1,0 +1,47 @@
+.overview-container{
+    display: flex;
+    gap: 100px;
+    justify-content: space-between;
+    padding: 96px 160px 48px 160px;
+}
+.overview {
+  display: flex;
+  flex-direction: column;
+  gap: 32px;
+}
+.overview p {
+  color: #475467;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  max-width: 400px;
+}
+.services {
+  display: flex;
+  gap: 132px;
+}
+.services .services-list ul {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  list-style-type: none;
+}
+.services .services-list ul li {
+  color: #475467;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+}
+.services .services-list ul li.services-header {
+  color: #667085;
+  font-family: 'Inter';
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+}
+.services-list li a{
+  color: inherit;
+  text-decoration: none;
+}

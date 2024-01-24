@@ -1,0 +1,57 @@
+.testimonies-container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 96px 160px;
+    background-color: #F9FAFB;
+}
+.testifier {
+  display: flex;
+  flex-direction: column;
+  gap: 48px;
+}
+.testifier p {
+  color: #101828;
+  font-family: "Inter";
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 60px; /* 136.364% */
+  letter-spacing: -0.88px;
+  max-width: 640px;
+}
+.testifier-credentials {
+  display: flex;
+  gap: 15px;
+  align-items: center;
+}
+
+.testifier-description {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
+.testifier-details {
+  display: flex;
+  flex-direction: column;
+}
+.testifier-details h5 {
+  align-self: stretch;
+  color: #101828;
+  font-family: "Inter";
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+}
+.testifier-details p {
+  align-self: stretch;
+  color: #475467;
+  font-family: "Inter";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+}
+.carousel-btn {
+  display: flex;
+  gap: 32px;
+}
